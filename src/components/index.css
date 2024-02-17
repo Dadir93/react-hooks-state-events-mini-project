@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./laugh.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  width: 320px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.categories h5 {
+  margin-right: 10px;
+}
+
+.categories button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.categories button.selected {
+  background-color: #0056b3;
+}
+
+.task {
+  background-color: #0056b3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: inline-block; /* Display tasks as inline-block elements */
+  width: 100px; /* Adjust the width of each tile */
+  margin-right: 20px; /* Add some margin between tiles */
+  vertical-align: top; /* Align tiles to the top of the container */
+  margin-left: 200px;
+}
+
+
+.task span {
+  margin-right: 10px;
+}
+
+.task button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #bd2130;
+}
